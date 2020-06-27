@@ -1,13 +1,14 @@
 ---
-description: Driver for ESP8266 Wifi SoC
-fullname: lib.espressif.esp8266wifi
+description: Add support for ESP WROOM 32 Module
+fullname: board.zerynth.cvm_espwroom32
 info:
+    board: ESP WROOM 32
     chip_manufacturer: Espressif
-    chip_name: ESP8266
-    name: Wi-Fi Driver
-    type: Connectivity
+    device: esp32
+    family_type: Xtensa lx6
 keywords:
-- wireless
-- wifi
-title: ESP8266 Wifi
+- espressif
+- esp32
+- board
+title: ESP WROOM 32 Support Package
 ...
