@@ -26,9 +26,9 @@ print("Establishing Link...")
 try:
     # FOR THIS EXAMPLE TO WORK, "Network-Name" AND "Wifi-Password" MUST BE SET
     # TO MATCH YOUR ACTUAL NETWORK CONFIGURATION
-    wifi.link("Network-name",wifi.WIFI_WPA2,"password")
-    print("Link Established")
+    wifi.link("JehPeh24Ghz",wifi.WIFI_WPA2,"jepepe1402")
+    print("Conexao estabelecida")
 except Exception as e:
-    print("ooops, something wrong while linking :(", e)
+    print("ooops, algo errado ao conectar no wifi JehPeh24Ghz :(", e)
     while True:
         sleep(1000)
